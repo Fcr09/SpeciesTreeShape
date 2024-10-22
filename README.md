@@ -1,2 +1,2 @@
 # SpeciesTreeShape
-course project for CSMS702
+Course project for CSMS702
