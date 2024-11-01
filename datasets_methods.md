@@ -4,6 +4,9 @@
 
 ### Biological Datasets
 
+#### Used in Shen et al.:
+- Dissecting incongruence between concatenation- and quartet-based approaches in phylogenomic data
+
 #### Used in Improved Robustness paper:
 - Plant dataset from Morel et al. (2019)
 - Avian dataset (Neognathae + Palaeognathae) from Wu et al. (2018)
