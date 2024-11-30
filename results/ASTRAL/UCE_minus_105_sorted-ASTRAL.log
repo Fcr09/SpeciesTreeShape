@@ -1,0 +1,61 @@
+
+================== ASTRAL ===================== 
+
+This is ASTRAL version 5.7.8
+Gene trees are treated as unrooted
+3053 trees read from ..\..\Datasets\UCE_minus_105_abayes_gene_trees_sorted.tre
+index0
+All output trees will be *arbitrarily* rooted at aptHaa
+
+======== Running the main analysis
+Number of taxa: 15 (15 species)
+Taxa: [aptHaa, aptOwe, aptRow, aptMan, casCas, droNov, cryCin, tinGut, notPer, eudEle, anoDid, galGal, rheAme, rhePen, strCam]
+Taxon occupancy: {tinGut=2893, aptHaa=3046, droNov=3042, strCam=3053, galGal=3053, notPer=3036, cryCin=3040, eudEle=3043, aptRow=3052, aptMan=1966, anoDid=3041, rheAme=3039, casCas=3043, rhePen=3038, aptOwe=3047}
+Number of gene trees: 3053
+1251 trees have missing taxa
+Calculating quartet distance matrix (for completion of X)
+Species tree distances calculated ...
+Will attempt to complete bipartitions from X before adding using a distance matrix.
+Building set of clusters (X) from gene trees 
+------------------------------
+gradient0: 301
+Number of Clusters after addition by distance: 301
+calculating extra bipartitions to be added at level 1 ...
+Adding to X using resolutions of greedy consensus ...
+Limit for sigma of degrees:425
+polytomy size limit : 4
+discarded polytomies:  [3, 4]
+Threshold 0.0:
+Threshold 0.01:
+Threshold 0.02:
+Threshold 0.05:
+Threshold 0.1:
+Threshold 0.2:
+polytomy of size 3; rounds with additions with at least 5 support: 0; clusters: 301
+Threshold 0.3333333333333333:
+polytomy of size 4; rounds with additions with at least 5 support: 0; clusters: 301
+max k is :0
+Number of Clusters after addition by greedy: 301
+gradient0 in heuristiic: 301
+partitions formed in 2.92 secs
+Dynamic Programming starting after 2.92 secs
+Using tree-based weight calculation.
+Using polytree-based weight calculation.
+Polytree max score: 3680213
+Polytree building time: 0.239 seconds.
+Number of quartet trees in the gene trees: 3680213
+Size of largest cluster: 15
+Greedy score: 2974658
+estimationFactor: 1.2371886112622021
+Sub-optimal score: 3007668
+Total Number of elements weighted: 522
+Normalized score (portion of input quartet trees satisfied before correcting for multiple individuals): 0.8236814010493414
+Optimization score: 3031323
+Optimal tree inferred in 3.494 secs.
+(casCas,(droNov,(((aptHaa,aptOwe),(aptRow,aptMan)),(((rheAme,rhePen),(galGal,strCam)),(anoDid,((notPer,eudEle),(cryCin,tinGut)))))));
+Final quartet score is: 3031323
+Final normalized quartet score is: 0.8236814010493414
+Extended species tree:
+(aptHaa,(aptOwe,((aptRow,aptMan)1:2.458759819174776,((((rheAme,rhePen)1:5.740823746336565,(galGal,strCam)1:0.7437242292968294)0.44:0.0043636325481421125,(anoDid,((notPer,eudEle)1:0.5595425858215385,(cryCin,tinGut)1:2.775970787889472)1:4.944399342368025)1:3.863489206104461)1:0.05460331961314749,(droNov,casCas)1:6.343331074116358)1:6.515183650102226)1:2.771823464884667));
+Weight calculation took 0.1463425 secs
+ASTRAL finished in 4.363 secs

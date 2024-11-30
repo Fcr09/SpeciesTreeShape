@@ -1,0 +1,64 @@
+
+================== ASTRAL ===================== 
+
+This is ASTRAL version 5.7.8
+Gene trees are treated as unrooted
+520 trees read from ..\..\Datasets\shen_plant.trees
+index0
+All output trees will be *arbitrarily* rooted at Clerodendrum_bungei
+
+======== Running the main analysis
+Number of taxa: 52 (52 species)
+Taxa: [Clerodendrum_bungei, Hyssopus_officinalis, Glechoma_hederacea, Nepeta_mussinii, Nepeta_cataria, Prunella_vulgaris, Lycopus_americanus, Origanum_vulgare, Origanum_majorana, Thymus_vulgaris, Mentha_piperita, Monarda_didyma, Mentha_spicata, Salvia_officinalis, Salvia_hispanica, Perovskia_atriplicifolia, Melissa_officinalis, Plectranthus_barbatus, Ocimum_basilicum, Hyptis_suaveolens, Lavandula_angustifolia, Perilla_frutescens, Collinsonia_canadensis, Paulownia_tomentosa, Aureolaria_pectinata, Petrea_volubilis, Lancea_tibetica, Prostanthera_lasianthos, Westringia_fruticosa, Callicarpa_americana, Congea_tomentosa, Tectona_grandis, Gmelina_philippensis, Cornutia_pyramidata, Premna_microphylla, Vitex_agnus-castus, Petraeovitex_bambusetorum, Holmskioldia_sanguinea, Scutellaria_baicalensis, Betonica_officinalis, Marrubium_vulgare, Ballota_pseudodictamnus, Lamium_album, Leonotis_leonurus, Leonurus_cardiaca, Pogostemon_cablin, Rotheca_myricoides, Teucrium_canadense, Ajuga_reptans, Agastache_foeniculum, Rosmarinus_officinalis, Phlomis_fruticosa]
+Taxon occupancy: {Petraeovitex_bambusetorum=393, Nepeta_cataria=425, Salvia_hispanica=446, Perovskia_atriplicifolia=450, Collinsonia_canadensis=452, Westringia_fruticosa=407, Lancea_tibetica=453, Petrea_volubilis=433, Phlomis_fruticosa=430, Mentha_piperita=458, Plectranthus_barbatus=414, Clerodendrum_bungei=402, Mentha_spicata=458, Origanum_majorana=434, Hyptis_suaveolens=412, Prunella_vulgaris=452, Rotheca_myricoides=397, Leonotis_leonurus=421, Ocimum_basilicum=410, Lamium_album=460, Agastache_foeniculum=438, Glechoma_hederacea=466, Teucrium_canadense=430, Monarda_didyma=461, Melissa_officinalis=443, Vitex_agnus-castus=422, Ballota_pseudodictamnus=432, Perilla_frutescens=445, Tectona_grandis=368, Salvia_officinalis=446, Marrubium_vulgare=442, Callicarpa_americana=387, Leonurus_cardiaca=454, Betonica_officinalis=434, Hyssopus_officinalis=459, Thymus_vulgaris=445, Ajuga_reptans=454, Gmelina_philippensis=441, Scutellaria_baicalensis=421, Lavandula_angustifolia=390, Nepeta_mussinii=451, Origanum_vulgare=462, Cornutia_pyramidata=410, Holmskioldia_sanguinea=431, Pogostemon_cablin=417, Premna_microphylla=418, Paulownia_tomentosa=407, Lycopus_americanus=414, Aureolaria_pectinata=427, Congea_tomentosa=419, Prostanthera_lasianthos=405, Rosmarinus_officinalis=442}
+Number of gene trees: 520
+512 trees have missing taxa
+Calculating quartet distance matrix (for completion of X)
+Species tree distances calculated ...
+Will attempt to complete bipartitions from X before adding using a distance matrix.
+Building set of clusters (X) from gene trees 
+------------------------------
+gradient0: 4205
+Number of Clusters after addition by distance: 4205
+calculating extra bipartitions to be added at level 1 ...
+Adding to X using resolutions of greedy consensus ...
+Limit for sigma of degrees:1350
+polytomy size limit : 6
+discarded polytomies:  [3, 3, 4, 4, 6]
+Threshold 0.0:
+Threshold 0.01:
+Threshold 0.02:
+Threshold 0.05:
+Threshold 0.1:
+Threshold 0.2:
+polytomy of size 3; rounds with additions with at least 5 support: 0; clusters: 4205
+Threshold 0.3333333333333333:
+polytomy of size 4; rounds with additions with at least 5 support: 0; clusters: 4205
+polytomy of size 3; rounds with additions with at least 5 support: 0; clusters: 4205
+polytomy of size 6; rounds with additions with at least 5 support: 0; clusters: 4205
+polytomy of size 4; rounds with additions with at least 5 support: 0; clusters: 4205
+max k is :0
+Number of Clusters after addition by greedy: 4205
+gradient0 in heuristiic: 4205
+partitions formed in 3.354 secs
+Dynamic Programming starting after 3.354 secs
+Using tree-based weight calculation.
+Using polytree-based weight calculation.
+Polytree max score: 69662898
+Polytree building time: 0.083 seconds.
+Number of quartet trees in the gene trees: 69662898
+Size of largest cluster: 52
+Greedy score: 59663595
+estimationFactor: 1.167594711649541
+Sub-optimal score: 61083176
+Total Number of elements weighted: 12397
+Normalized score (portion of input quartet trees satisfied before correcting for multiple individuals): 0.8801342861159752
+Optimization score: 61312705
+Optimal tree inferred in 28.147 secs.
+(Collinsonia_canadensis,(Perilla_frutescens,((Lavandula_angustifolia,(Ocimum_basilicum,(Plectranthus_barbatus,Hyptis_suaveolens))),(((Melissa_officinalis,(Salvia_hispanica,(Perovskia_atriplicifolia,(Salvia_officinalis,Rosmarinus_officinalis)))),(Lycopus_americanus,(((Nepeta_mussinii,Nepeta_cataria),(Agastache_foeniculum,(Hyssopus_officinalis,Glechoma_hederacea))),(Prunella_vulgaris,((Thymus_vulgaris,(Origanum_vulgare,Origanum_majorana)),(Monarda_didyma,(Mentha_piperita,Mentha_spicata))))))),(((Callicarpa_americana,(Prostanthera_lasianthos,Westringia_fruticosa)),(Paulownia_tomentosa,(Petrea_volubilis,(Aureolaria_pectinata,Lancea_tibetica)))),(Tectona_grandis,((Congea_tomentosa,Vitex_agnus-castus),((Cornutia_pyramidata,(Gmelina_philippensis,Premna_microphylla)),((Holmskioldia_sanguinea,Scutellaria_baicalensis),((Rotheca_myricoides,(Clerodendrum_bungei,(Teucrium_canadense,Ajuga_reptans))),(Petraeovitex_bambusetorum,(Pogostemon_cablin,(Betonica_officinalis,(Phlomis_fruticosa,(Leonurus_cardiaca,(Leonotis_leonurus,(Lamium_album,(Marrubium_vulgare,Ballota_pseudodictamnus))))))))))))))))));
+Final quartet score is: 61312705
+Final normalized quartet score is: 0.8801342861159752
+Extended species tree:
+(Clerodendrum_bungei,((Teucrium_canadense,Ajuga_reptans)1:0.29520932814213685,(Rotheca_myricoides,((Petraeovitex_bambusetorum,(Pogostemon_cablin,(Betonica_officinalis,(Phlomis_fruticosa,(Leonurus_cardiaca,(Leonotis_leonurus,(Lamium_album,(Marrubium_vulgare,Ballota_pseudodictamnus)1:3.663486758772676)0.35:0.09603749942487512)1:0.4777323592733176)1:0.9201187669190849)1:0.3600066803691073)1:2.684400274856339)1:3.058693816479467)0.72:0.05309190196747759,((Holmskioldia_sanguinea,Scutellaria_baicalensis)1:1.2396795440770347,((Cornutia_pyramidata,(Gmelina_philippensis,Premna_microphylla)1:0.4799545460795481)0.99:0.11750235488436085,((Congea_tomentosa,Vitex_agnus-castus)1:0.5808008509864052,(Tectona_grandis,(((Callicarpa_americana,(Prostanthera_lasianthos,Westringia_fruticosa)1:3.479787656255374)1:0.2708712178212303,(Paulownia_tomentosa,(Petrea_volubilis,(Aureolaria_pectinata,Lancea_tibetica)1:0.2318624299375275)1:0.18850501377550322)1:1.7758017024042279)1:0.4995817155580444,(((Melissa_officinalis,(Salvia_hispanica,(Perovskia_atriplicifolia,(Salvia_officinalis,Rosmarinus_officinalis)1:0.29253344063331055)1:0.20693683297085264)1:2.32181112566166)1:1.4796386230358103,(Lycopus_americanus,(((Nepeta_mussinii,Nepeta_cataria)1:3.923181637785208,(Agastache_foeniculum,(Hyssopus_officinalis,Glechoma_hederacea)1:0.2813815219867199)1:1.4196728708243669)1:2.771940569172357,(Prunella_vulgaris,((Thymus_vulgaris,(Origanum_vulgare,Origanum_majorana)1:3.149882953381249)1:3.3440389678222058,(Monarda_didyma,(Mentha_piperita,Mentha_spicata)1:2.263364379840764)1:2.3427050867834707)1:3.433269648940141)0.95:0.08088916046726981)0.9:0.0636650004675133)1:1.0499819383161766)1:3.1380916761961624,((Lavandula_angustifolia,(Ocimum_basilicum,(Plectranthus_barbatus,Hyptis_suaveolens)0.53:0.028511757054492545)1:1.7654950918754608)1:1.4412575588323862,(Perilla_frutescens,Collinsonia_canadensis)1:3.6429518543883646)1:0.1636391203591952)1:3.1861872046488737)1:0.2126187070943558)0.94:0.1187732500872619)0.95:0.0900007935361745)1:1.4300225500497932)1:0.21630272880552795)1:0.25416411636441244)1:1.8784681853691787));
+Weight calculation took 24.2372298 secs
+ASTRAL finished in 29.375 secs

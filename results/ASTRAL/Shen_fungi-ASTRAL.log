@@ -1,0 +1,60 @@
+
+================== ASTRAL ===================== 
+
+This is ASTRAL version 5.7.8
+Gene trees are treated as unrooted
+1034 trees read from ..\..\Datasets\shen_fungi.trees
+index0
+All output trees will be *arbitrarily* rooted at Hvinae
+
+======== Running the main analysis
+Number of taxa: 29 (29 species)
+Taxa: [Hvinae, Hosmophila, Hosmophila_34957-160519, Hoccidentalis_var_citrica_35694-160519, Hoccidentalis_var_occidentalis_34959-160519, Han_19, Hjakobsenii_35692-160519, Hsingularis_35696-160519, Khatyaiensis_35684-160519, Hclermontiae_34963-160519, Hmeyeri_34960-160519, Huvarum_DSM2768, Huvarum_34956-170307, Huvarum_AWRI3580, Huvarum_34-9, Hthailandica_35697-160519, Hnectarophila_35693-160613, Hguilliermondii, Hguilliermondii_34962-170307, Hlachancei_34961-170307, Hpseudoguilliermondii_35695-160519, Hopuntiae, Hvalbyensis, Hlibkind_35685-160519, Scer, Kmarxianus, Wanomalus, Cjadinii, Hvineae_26147-160519]
+Taxon occupancy: {Hvineae_26147-160519=1034, Hclermontiae_34963-160519=1034, Huvarum_34956-170307=1034, Hpseudoguilliermondii_35695-160519=1034, Cjadinii=1034, Han_19=1034, Hjakobsenii_35692-160519=1034, Kmarxianus=1034, Hosmophila_34957-160519=1034, Hthailandica_35697-160519=1034, Huvarum_DSM2768=1034, Huvarum_AWRI3580=1034, Hopuntiae=1034, Hguilliermondii=1034, Hvalbyensis=1034, Hosmophila=1034, Hguilliermondii_34962-170307=1034, Hsingularis_35696-160519=1034, Hlibkind_35685-160519=1034, Hmeyeri_34960-160519=1034, Huvarum_34-9=1034, Hoccidentalis_var_occidentalis_34959-160519=1034, Wanomalus=1034, Hnectarophila_35693-160613=1034, Hlachancei_34961-170307=1034, Hoccidentalis_var_citrica_35694-160519=1034, Hvinae=1034, Scer=1034, Khatyaiensis_35684-160519=1034}
+Number of gene trees: 1034
+0 trees have missing taxa
+Calculating quartet distance matrix (for completion of X)
+Species tree distances calculated ...
+Building set of clusters (X) from gene trees 
+------------------------------
+gradient0: 1067
+Number of Clusters after addition by distance: 1067
+calculating extra bipartitions to be added at level 1 ...
+Adding to X using resolutions of greedy consensus ...
+Limit for sigma of degrees:775
+polytomy size limit : 4
+discarded polytomies:  [4, 4]
+Threshold 0.0:
+Threshold 0.01:
+Threshold 0.02:
+Threshold 0.05:
+Threshold 0.1:
+Threshold 0.2:
+Threshold 0.3333333333333333:
+polytomy of size 4; rounds with additions with at least 5 support: 0; clusters: 1067
+polytomy of size 4; rounds with additions with at least 5 support: 0; clusters: 1067
+max k is :0
+Number of Clusters after addition by greedy: 1067
+gradient0 in heuristiic: 1067
+partitions formed in 2.131 secs
+Dynamic Programming starting after 2.131 secs
+Using tree-based weight calculation.
+Using polytree-based weight calculation.
+Polytree max score: 24558534
+Polytree building time: 1.169 seconds.
+Number of quartet trees in the gene trees: 24558534
+Size of largest cluster: 29
+Greedy score: 22190091
+estimationFactor: 1.1067342626039705
+Sub-optimal score: 22667911
+Total Number of elements weighted: 2462
+Normalized score (portion of input quartet trees satisfied before correcting for multiple individuals): 0.9230156409173284
+Optimization score: 22667911
+Optimal tree inferred in 3.744 secs.
+(Hpseudoguilliermondii_35695-160519,(Hopuntiae,(Hlachancei_34961-170307,((Hguilliermondii,Hguilliermondii_34962-170307),((Hthailandica_35697-160519,(Hnectarophila_35693-160613,((Hclermontiae_34963-160519,Hmeyeri_34960-160519),(Huvarum_34-9,(Huvarum_AWRI3580,(Huvarum_DSM2768,Huvarum_34956-170307)))))),(Khatyaiensis_35684-160519,(((Hvalbyensis,Hlibkind_35685-160519),(Hjakobsenii_35692-160519,Hsingularis_35696-160519)),(((Scer,Kmarxianus),(Wanomalus,Cjadinii)),((Han_19,(Hoccidentalis_var_citrica_35694-160519,Hoccidentalis_var_occidentalis_34959-160519)),((Hvinae,Hvineae_26147-160519),(Hosmophila,Hosmophila_34957-160519)))))))))));
+Final quartet score is: 22667911
+Final normalized quartet score is: 0.9230156409173284
+Extended species tree:
+(Hvinae,(Hvineae_26147-160519,((Hosmophila,Hosmophila_34957-160519)1:3.92221974344866,((Han_19,(Hoccidentalis_var_citrica_35694-160519,Hoccidentalis_var_occidentalis_34959-160519)1:4.6414965411150035)1:0.2492555666959581,(((Scer,Kmarxianus)1:0.4613455665026211,(Wanomalus,Cjadinii)1:4.339467020255092)1:6.536691597591323,(((Hvalbyensis,Hlibkind_35685-160519)1:4.469828838118311,(Hjakobsenii_35692-160519,Hsingularis_35696-160519)1:0.651754913893152)1:0.5827654133480125,(Khatyaiensis_35684-160519,((Hthailandica_35697-160519,(Hnectarophila_35693-160613,((Hclermontiae_34963-160519,Hmeyeri_34960-160519)1:2.4041371450768647,(Huvarum_34-9,(Huvarum_AWRI3580,(Huvarum_DSM2768,Huvarum_34956-170307)0.69:0.0547611322296945)1:0.08584210038572826)1:4.002879768394208)1:0.07565853008826126)1:0.21955556290768896)1:0.43358585323476434,((Hguilliermondii,Hguilliermondii_34962-170307)1:3.536109989975873,(Hlachancei_34961-170307,(Hopuntiae,Hpseudoguilliermondii_35695-160519)1:0.23597637704856042)1:1.3210767228085114)1:2.5135046365866534)1:2.1037738327203814)1:1.9221597743866472)1:5.977075809655852)1:2.2716670535907317)1:3.7324133643945347)1:3.360305824344057));
+Weight calculation took 0.2554312 secs
+ASTRAL finished in 4.79 secs
