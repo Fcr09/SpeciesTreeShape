@@ -7,7 +7,7 @@ tree_style <- list(
   theme_tree2(),
   theme(
     plot.margin = margin(20, 20, 20, 20),
-    text = element_text(size=14),
+    text = element_text(size=12),
     legend.position = "none"
   )
 )

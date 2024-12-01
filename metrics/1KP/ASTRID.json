@@ -1,15 +1,15 @@
 {
-  "rooted_quartet": [2136882],
-  "sackin": [1558],
-  "colless": [1142],
-  "b1": [47.8145],
-  "b2": [2.071],
-  "avg_leaf_depth": [15.1262],
-  "avg_vertex_depth": [14.2049],
-  "max_depth": [25],
-  "max_width": [20],
+  "rooted_quartet": [3418368],
+  "sackin": [1365],
+  "colless": [899],
+  "b1": [48.2457],
+  "b2": [2.1677],
+  "avg_leaf_depth": [13.2524],
+  "avg_vertex_depth": [12.322],
+  "max_depth": [20],
+  "max_width": [24],
   "stairs1": [0.6765],
-  "stairs2": [0.5366],
+  "stairs2": [0.558],
   "symmetry_nodes": [70],
-  "total_cophenetic": [41613]
+  "total_cophenetic": [31770]
 }
