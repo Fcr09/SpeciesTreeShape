@@ -4,10 +4,11 @@ library('ape')
 library('treebalance')
 library('readr')
 
-method <- "ASTRAL"
+method <- "TREEQMC"
+dataset <- "Song_mammals"
 
 # Read tree from file
-tree_file <- sprintf("../results/%s/1KP-%s.tre", method, method)
+tree_file <- sprintf("../results/%s/%s_%s.tre", method, dataset, method)
 text <- read_file(tree_file)
 tree <- ape::read.tree(text=text)
 
@@ -16,10 +17,10 @@ tree <- ape::read.tree(text=text)
 # print(tree$tip.label)
 
 # Root the tree at the first tip label instead of "0"
-# rooted_tree <- ape::root(tree, tree$tip.label[1], resolve.root=TRUE)
+rooted_tree <- ape::root(tree, 'Platypus', resolve.root=TRUE)
 rooted_tree <- tree
 # Make tree binary (resolve polytomies randomly)
-rooted_tree <- ape::multi2di(rooted_tree)
+# rooted_tree <- ape::multi2di(rooted_tree)
 
 # Calculate balance indices
 
@@ -70,4 +71,4 @@ balance_indices <- list(
 )
 
 # Convert to JSON and write to file
-jsonlite::write_json(balance_indices, sprintf("../metrics/1KP/%s.json", method), pretty=TRUE)
+jsonlite::write_json(balance_indices, sprintf("../metrics/%s/%s.json", dataset, method), pretty=TRUE)

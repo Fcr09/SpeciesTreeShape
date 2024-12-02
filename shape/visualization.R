@@ -13,12 +13,12 @@ tree_style <- list(
 )
 
 # Create plots for both ASTRAL and ASTRID trees
-methods <- c("ASTRAL", "ASTRID")
+methods <- c("TREEQMC")
 plots <- list()
 
 for (method in methods) {
   # Read tree file
-  tree_file <- sprintf("../results/%s/1KP-speciestrees.tre", method)
+  tree_file <- sprintf("../results/%s/1KP_Tree1_%s.tre", method, method)
   tree <- read.tree(tree_file)
   
   # Create plot with common style, setting edge.length to NULL to avoid NA warnings
