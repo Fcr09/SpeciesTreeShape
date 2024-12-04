@@ -5,7 +5,7 @@ library('treebalance')
 library('readr')
 
 method <- "ASTRID"
-dataset <- "Shenanimal_Murine_Ref_Mus_20161116"
+dataset <- "Shen_plant"
 
 # Read tree from file
 tree_file <- sprintf("../results/%s/%s.tre", method, dataset)
@@ -16,11 +16,7 @@ tree <- ape::read.tree(text=text)
 # print("Available tree labels:")
 # print(tree$tip.label)
 
-# Root the tree at the first tip label instead of "0"
-rooted_tree <- ape::root(tree, 'Murine_Ref_Mus_20161116', resolve.root=TRUE)
-# rooted_tree <- tree
-# Make tree binary (resolve polytomies randomly)
-# rooted_tree <- ape::multi2di(rooted_tree)
+rooted_tree <- ape::root(tree, 'Paulownia_tomentosa', resolve.root=TRUE)
 
 # Calculate balance indices
 
@@ -71,5 +67,5 @@ balance_indices <- list(
 )
 
 # Convert to JSON and write to file
-dataset <- "Shen_animal"
-jsonlite::write_json(balance_indices, sprintf("../metrics/%s/%s.json", dataset, method), pretty=TRUE)
+dataset_1 <- "Shen_plant"
+jsonlite::write_json(balance_indices, sprintf("../metrics/%s/%s.json", dataset_1, method), pretty=TRUE)
