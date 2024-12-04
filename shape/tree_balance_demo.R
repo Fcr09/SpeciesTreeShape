@@ -4,11 +4,11 @@ library('ape')
 library('treebalance')
 library('readr')
 
-method <- "TREEQMC"
-dataset <- "Song_mammals"
+method <- "ASTRID"
+dataset <- "Shen_animal"
 
 # Read tree from file
-tree_file <- sprintf("../results/%s/%s_%s.tre", method, dataset, method)
+tree_file <- sprintf("../results/%s/%s.tre", method, dataset)
 text <- read_file(tree_file)
 tree <- ape::read.tree(text=text)
 
@@ -18,7 +18,7 @@ tree <- ape::read.tree(text=text)
 
 # Root the tree at the first tip label instead of "0"
 rooted_tree <- ape::root(tree, 'Murine_Ref_Mus_20161116', resolve.root=TRUE)
-rooted_tree <- tree
+# rooted_tree <- tree
 # Make tree binary (resolve polytomies randomly)
 # rooted_tree <- ape::multi2di(rooted_tree)
 
