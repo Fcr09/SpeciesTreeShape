@@ -4,8 +4,8 @@ library('ape')
 library('treebalance')
 library('readr')
 
-method <- "TreeQMC"
-dataset <- "Shen_fungi"
+method <- "ASTRAL"
+dataset <- "Avian_uce"
 
 # Read tree from file
 tree_file <- sprintf("../results/%s/%s.tre", method, dataset)
@@ -16,7 +16,7 @@ tree <- ape::read.tree(text=text)
 # print("Available tree labels:")
 # print(tree$tip.label)
 
-rooted_tree <- ape::root(tree, 'Scer', resolve.root=TRUE)
+rooted_tree <- ape::root(tree, 'TINMA', resolve.root=TRUE)
 
 # Calculate balance indices
 
@@ -67,5 +67,5 @@ balance_indices <- list(
 )
 
 # Convert to JSON and write to file
-dataset_1 <- "Shen_fungi"
+dataset_1 <- "Avian_uce"
 jsonlite::write_json(balance_indices, sprintf("../metrics/%s/%s.json", dataset_1, method), pretty=TRUE)
