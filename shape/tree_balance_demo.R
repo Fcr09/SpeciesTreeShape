@@ -5,7 +5,7 @@ library('treebalance')
 library('readr')
 
 method <- "ASTRID"
-dataset <- "Shen_animal"
+dataset <- "Shenanimal_Murine_Ref_Mus_20161116"
 
 # Read tree from file
 tree_file <- sprintf("../results/%s/%s.tre", method, dataset)
@@ -71,4 +71,5 @@ balance_indices <- list(
 )
 
 # Convert to JSON and write to file
+dataset <- "Shen_animal"
 jsonlite::write_json(balance_indices, sprintf("../metrics/%s/%s.json", dataset, method), pretty=TRUE)
