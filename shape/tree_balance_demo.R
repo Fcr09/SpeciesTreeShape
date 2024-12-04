@@ -17,7 +17,7 @@ tree <- ape::read.tree(text=text)
 # print(tree$tip.label)
 
 # Root the tree at the first tip label instead of "0"
-rooted_tree <- ape::root(tree, 'Platypus', resolve.root=TRUE)
+rooted_tree <- ape::root(tree, 'Murine_Ref_Mus_20161116', resolve.root=TRUE)
 rooted_tree <- tree
 # Make tree binary (resolve polytomies randomly)
 # rooted_tree <- ape::multi2di(rooted_tree)
