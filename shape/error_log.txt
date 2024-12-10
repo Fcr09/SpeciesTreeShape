@@ -1,0 +1,34 @@
+Error processing dataset: Cetacean, method: ASTER
+
+Error processing dataset: Cetacean, method: ASTRAL-III
+
+Error processing dataset: Cetacean, method: ASTRID
+
+Error processing dataset: Lepidoptera, method: ASTRAL-III
+
+Error processing dataset: Lepidoptera, method: ASTRID
+
+Error processing dataset: Papilionidae, method: ASTER
+
+Error processing dataset: Papilionidae, method: ASTRAL-III
+
+Error processing dataset: Papilionidae, method: ASTRID
+
+Error processing dataset: Pseudapis, method: ASTRID
+
+Error processing dataset: Seedplantbackbone, method: TreeQMC
+
+Error processing dataset: Seedplantbackbone, method: ASTRID
+
+Error processing dataset: Shenanimal, method: ASTER
+
+Error processing dataset: Shenanimal, method: ASTRAL-III
+
+Error processing dataset: Shenfungi, method: TreeQMC
+
+Error processing dataset: Shenplant, method: TreeQMC
+
+Error processing dataset: Songmammals, method: TreeQMC
+
+Error processing dataset: UCEminus105, method: ASTRID
+

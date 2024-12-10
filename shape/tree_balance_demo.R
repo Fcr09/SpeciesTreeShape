@@ -30,6 +30,7 @@ get_statistics <- function(method, dataset) {
   file_name <- result$filename
   file_path <- file.path("../results", method, file_name)
   root <- result$root
+  cat(sprintf("Root: %s\n", root))
 
   text <- read_file(file_path)
   tree <- ape::read.tree(text=text)
@@ -118,3 +119,4 @@ for (dataset in datasets) {
 # Close error log file
 close(error_log)
 
+# get_statistics("TreeQMC", "Shenplant")
