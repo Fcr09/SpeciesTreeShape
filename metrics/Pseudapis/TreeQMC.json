@@ -1,0 +1,15 @@
+{
+  "rooted_quartet": [24966],
+  "sackin": [247],
+  "colless": [139],
+  "b1": [16.3032],
+  "b2": [2.6772],
+  "avg_leaf_depth": [7.7188],
+  "avg_vertex_depth": [6.8571],
+  "max_depth": [12],
+  "max_width": [10],
+  "stairs1": [0.6129],
+  "stairs2": [0.6054],
+  "symmetry_nodes": [19],
+  "total_cophenetic": [1597]
+}
