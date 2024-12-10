@@ -97,14 +97,24 @@ get_statistics <- function(method, dataset) {
 datasets <- c("Avianuce", "Cetacean", "Lepidoptera", "Papilionidae", "Pseudapis", "Seedplantbackbone", "Shenanimal", "Shenfungi", "Shenplant", "Songmammals", "UCEminus105")
 
 # Calculate and save tree balance statistics for each dataset and method
-methods <- c("ASTER", "TreeQMC", "ASTRAL-III")
+methods <- c("ASTER", "TreeQMC", "ASTRAL-III", "ASTRID")
+
+# Create error log file
+error_log <- file("error_log.txt", "w")
+
 for (dataset in datasets) {
   for (method in methods) {
     tryCatch({
       get_statistics(method, dataset)
     }, error = function(e) {
-      cat(sprintf("Error processing dataset: %s, method: %s\n", dataset, method))
+      error_msg <- sprintf("Error processing dataset: %s, method: %s\n", dataset, method)
+      cat(error_msg)
+      # Write error to log file
+      writeLines(error_msg, error_log)
     })
   }
 }
+
+# Close error log file
+close(error_log)
 
