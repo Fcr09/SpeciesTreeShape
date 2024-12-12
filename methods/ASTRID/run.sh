@@ -26,3 +26,5 @@ cd methods/ASTRID
 # bazel-bin/src/ASTRID -i $root_dir/data/Seed\ Plant\ Data/gene.tre -o $root_dir/results/ASTRID/Seedplant_Isoetes_tegetiformans_1kp.tre
 
 # bazel-bin/src/ASTRID -i $root_dir/data/UCE_minus_105_abayes_gene_trees_sorted.tre -o $root_dir/results/ASTRID/UCEminus105_tinGut.tre
+
+bazel-bin/src/ASTRID -i $root_dir/data/Feng_frog/Feng_frog.tre -o $root_dir/results/ASTRID/Fengfrog_Leiopelma_hochstetteri_Leiopelmatidae.tre

@@ -1,15 +1,15 @@
 {
-  "rooted_quartet": [3418368],
-  "sackin": [1365],
-  "colless": [899],
-  "b1": [48.2457],
-  "b2": [2.1677],
-  "avg_leaf_depth": [13.2524],
-  "avg_vertex_depth": [12.322],
-  "max_depth": [20],
-  "max_width": [24],
-  "stairs1": [0.6765],
-  "stairs2": [0.558],
-  "symmetry_nodes": [70],
-  "total_cophenetic": [31770]
+  "rooted_quartet": [27774354819],
+  "sackin": [40000],
+  "colless": [32880],
+  "b1": [573.5142],
+  "b2": [2.0989],
+  "avg_leaf_depth": [33.9559],
+  "avg_vertex_depth": [32.9707],
+  "max_depth": [52],
+  "max_width": [118],
+  "stairs1": [0.6508],
+  "stairs2": [0.5633],
+  "symmetry_nodes": [771],
+  "total_cophenetic": [12182690]
 }
