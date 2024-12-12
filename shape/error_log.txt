@@ -20,5 +20,3 @@ Error processing dataset: Shenplant, method: TreeQMC
 
 Error processing dataset: Songmammals, method: TreeQMC
 
-Error processing dataset: UCEminus105, method: ASTRID
-

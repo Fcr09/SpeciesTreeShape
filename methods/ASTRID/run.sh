@@ -23,4 +23,6 @@ cd methods/ASTRID
 
 # bazel-bin/src/ASTRID -i $root_dir/data/1KP_RSOF.tre -o $root_dir/results/ASTRID/1KP_RSOF.tre
 
-bazel-bin/src/ASTRID -i $root_dir/data/Seed\ Plant\ Data/gene.tre -o $root_dir/results/ASTRID/Seedplant_Isoetes_tegetiformans_1kp.tre
+# bazel-bin/src/ASTRID -i $root_dir/data/Seed\ Plant\ Data/gene.tre -o $root_dir/results/ASTRID/Seedplant_Isoetes_tegetiformans_1kp.tre
+
+# bazel-bin/src/ASTRID -i $root_dir/data/UCE_minus_105_abayes_gene_trees_sorted.tre -o $root_dir/results/ASTRID/UCEminus105_tinGut.tre
