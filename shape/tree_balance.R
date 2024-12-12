@@ -95,7 +95,7 @@ get_statistics <- function(method, dataset) {
 }
 
 # Move these outside the function
-datasets <- c("Avianuce", "Cetacean", "Lepidoptera", "Papilionidae", "Pseudapis", "Seedplantbackbone", "Shenanimal", "Shenfungi", "Shenplant", "Songmammals", "UCEminus105")
+datasets <- c("Avianuce", "Cetacean", "Lepidoptera", "Papilionidae", "Pseudapis", "Seedplant", "Shenanimal", "Shenfungi", "Shenplant", "Songmammals", "UCEminus105")
 
 # Calculate and save tree balance statistics for each dataset and method
 methods <- c("ASTER", "TreeQMC", "ASTRAL-III", "ASTRID")

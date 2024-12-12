@@ -4,15 +4,13 @@ Error processing dataset: Cetacean, method: ASTRAL-III
 
 Error processing dataset: Lepidoptera, method: ASTRAL-III
 
-Error processing dataset: Lepidoptera, method: ASTRID
-
 Error processing dataset: Papilionidae, method: ASTER
 
 Error processing dataset: Papilionidae, method: ASTRAL-III
 
-Error processing dataset: Seedplantbackbone, method: TreeQMC
+Error processing dataset: Seedplant, method: TreeQMC
 
-Error processing dataset: Seedplantbackbone, method: ASTRID
+Error processing dataset: Seedplant, method: ASTRAL-III
 
 Error processing dataset: Shenanimal, method: ASTRAL-III
 
