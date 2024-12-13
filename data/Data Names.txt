@@ -1,0 +1,27 @@
+Here, the datasets are labeled with the following convention: '{dataset_name}_{root}'
+
+Each root was identified through analysis of published literature for each dataset.
+
+Songmammals_Platypus
+Shenanimal_Murine_Ref_Mus
+Shenplant_Paulownia_tomentosa
+Shenfungi_Scer
+Avianuce_TINMA
+Canis_AndeanFox
+Viburnum_V_clemensiae_FLAG
+Seedplantbackbone_Selaginella_apoda_1kp
+Papilionidae_Choristoneura_fumiferana
+Lepidoptera_Micropterigoidea_Micropterigidae_Micropterix_calthella_Mica__N
+Nomiinae_Lasioglossum_albipes
+Cetacean_Bacu
+Characoid_cyprinus_carpio
+Fengfrog_Leiopelma_hochstetteri_Leiopelmatidae
+UCEminus105_tinGut
+1KP_RSOF
+Pseudapis_Lasioglossum_albipes
+Oryza_brachyantha
+Lampropeltis_Arizona_elegans_FTB1854
+Fumaria_Dicentra_C
+Batrachospes_MVZ232841
+Anoplura_Brant
+SNPanuran_???
