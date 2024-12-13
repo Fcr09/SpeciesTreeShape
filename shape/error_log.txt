@@ -8,21 +8,9 @@ Error processing dataset: Papilionidae, method: ASTER
 
 Error processing dataset: Papilionidae, method: ASTRAL-III
 
-Error processing dataset: Seedplant, method: TreeQMC (resolved?)
-
-Error processing dataset: Seedplant, method: ASTRAL-III (resolved?)
-
-Error processing dataset: Shenanimal, method: ASTRAL-III
-
-Error processing dataset: Shenfungi, method: TreeQMC (resolved?)
-
-Error processing dataset: Shenplant, method: TreeQMC (resolved?)
-
-Error processing dataset: Songmammals, method: TreeQMC
+Error processing dataset: Seedplant, method: TreeQMC
 
 Error processing dataset: 1KP, method: ASTER
-
-Error processing dataset: 1KP, method: TreeQMC
 
 Error processing dataset: 1KP, method: ASTRAL-III
 
