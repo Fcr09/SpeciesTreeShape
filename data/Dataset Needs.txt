@@ -1,7 +1,7 @@
 Datasets (and methods still to run/fix):
-1KP - ASTRAL, ASTER, Tree-QMC
+1KP - ASTRAL, ASTER
 Songmammal% - CASTER
-Fengfrog% - ASTRAL, CASTER
+Fengfrog% - CASTER
 Viburnum^ - ASTRAL, ASTER, Tree-QMC, ASTRID
 Characoid^ - ASTRAL, ASTER, Tree-QMC, ASTRID
 Anuran* - CASTER
