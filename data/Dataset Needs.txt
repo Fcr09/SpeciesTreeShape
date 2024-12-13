@@ -1,0 +1,43 @@
+Datasets (and methods still to run/fix):
+1KP - ASTRAL, ASTER, Tree-QMC
+Songmammal* - CASTER
+Fengfrog* - ASTRAL, Tree-QMC, CASTER
+Oryza* - ASTRAL, ASTER, Tree-QMC, ASTRID
+Lamp* - ASTRAL, ASTER, Tree-QMC, ASTRID
+Fumaria* - ASTRAL, ASTER, Tree-QMC, ASTRID
+Batra* - ASTRAL, ASTER, Tree-QMC, ASTRID
+Viburnum^ - ASTRAL, ASTER, Tree-QMC, ASTRID
+Characoid^ - ASTRAL, ASTER, Tree-QMC, ASTRID
+Anoplura* - ASTRAL, ASTER, Tree-QMC, ASTRID
+Anuran* - ASTRAL, ASTER, Tree-QMC, ASTRID, CASTER
+Canis - ASTRAL, ASTER, Tree-QMC, ASTRID
+Cetacean - ASTRAL, ASTER
+Lepidop - ASTRAL
+Papilioin - ASTRAL, ASTER
+
+^ - Need gene tree, appears to only have species tree right now
+* - Has MSAs available, may want to estimate gene trees with them, and re-run gene tree input estimation methods
+
+Species Trees:
+Some datasets claim to have species trees. Have not found many clear ones, but may need to refine this list.
+
+
+Datasets to estimate gene trees (?):
+Songmammal
+Fengfrog
+Oryza
+Lamp
+Fumaria
+Batra
+Anoplura
+Anuran
+
+
+Completed Datasets (as far as I can tell):
+Shenanimal
+UCE
+Avian
+Seedplant
+Pseudapis
+Shenfungi
+Shenplant
