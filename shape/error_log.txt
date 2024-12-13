@@ -14,9 +14,9 @@ Error processing dataset: Seedplant, method: ASTRAL-III (resolved?)
 
 Error processing dataset: Shenanimal, method: ASTRAL-III
 
-Error processing dataset: Shenfungi, method: TreeQMC
+Error processing dataset: Shenfungi, method: TreeQMC (resolved?)
 
-Error processing dataset: Shenplant, method: TreeQMC
+Error processing dataset: Shenplant, method: TreeQMC (resolved?)
 
 Error processing dataset: Songmammals, method: TreeQMC
 
