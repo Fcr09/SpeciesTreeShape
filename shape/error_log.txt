@@ -2,7 +2,7 @@ Error processing dataset: Lepidoptera, method: ASTRAL-III (Error parsing input t
 
 Error processing dataset: Seedplant, method: TreeQMC (Unsure of issue)
 
-Error processing dataset: 1KP, method: ASTER (Running now)
+Error processing dataset: 1KP, method: ASTER (Resolved?)
 
-Error processing dataset: 1KP, method: ASTRAL-III (Running now)
+Error processing dataset: 1KP, method: ASTRAL-III (Resolved?)
 
