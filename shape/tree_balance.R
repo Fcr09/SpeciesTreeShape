@@ -94,7 +94,6 @@ get_statistics <- function(method, dataset) {
   cat("----------------------------------------\n")
 }
 
-# Move these outside the function
 datasets <- c("Avianuce", "Cetacean", "Lepidoptera", "Papilionidae", "Pseudapis", "Seedplant", "Shenanimal", "Shenfungi", "Shenplant", "Songmammals", "UCEminus105", "1KP", "Fengfrog")
 
 # Calculate and save tree balance statistics for each dataset and method
@@ -119,4 +118,4 @@ for (dataset in datasets) {
 # Close error log file
 close(error_log)
 
-# get_statistics("TreeQMC", "Shenplant")
+get_statistics("TreeQMC", "Seedplant")
