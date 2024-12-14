@@ -1,12 +1,12 @@
 Error processing dataset: Cetacean, method: ASTER (Resolved?)
 
-Error processing dataset: Cetacean, method: ASTRAL-III (Java Heap error)
+Error processing dataset: Cetacean, method: ASTRAL-III (Java heap error)
 
 Error processing dataset: Lepidoptera, method: ASTRAL-III
 
 Error processing dataset: Papilionidae, method: ASTER (Resolved?)
 
-Error processing dataset: Papilionidae, method: ASTRAL-III
+Error processing dataset: Papilionidae, method: ASTRAL-III (Java heap error)
 
 Error processing dataset: Seedplant, method: TreeQMC (Not sure of issue here. Tree seems binary, not sure how to change the estimation method.)
 
