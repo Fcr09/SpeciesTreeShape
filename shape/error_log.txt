@@ -10,7 +10,7 @@ Error processing dataset: Papilionidae, method: ASTRAL-III (Java heap error)
 
 Error processing dataset: Seedplant, method: TreeQMC (Not sure of issue here. Tree seems binary, not sure how to change the estimation method.)
 
-Error processing dataset: 1KP, method: ASTER
+Error processing dataset: 1KP, method: ASTER (Running now)
 
 Error processing dataset: 1KP, method: ASTRAL-III
 
