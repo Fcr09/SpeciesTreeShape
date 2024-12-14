@@ -99,11 +99,28 @@ datasets <- c("Avianuce", "Cetacean", "Lepidoptera", "Papilionidae", "Pseudapis"
 # Calculate and save tree balance statistics for each dataset and method
 methods <- c("ASTER", "TreeQMC", "ASTRAL-III", "ASTRID")
 
+datasets_caster <- c("Anoplura", "Batrachoseps", "Fumaria", "Lampropeltis", "Oryza")
+
+methods_caster <- c("CASTER-pair", "CASTER-site")
+
 # Create error log file
 error_log <- file("error_log.txt", "w")
 
 for (dataset in datasets) {
   for (method in methods) {
+    tryCatch({
+      get_statistics(method, dataset)
+    }, error = function(e) {
+      error_msg <- sprintf("Error processing dataset: %s, method: %s\n", dataset, method)
+      cat(error_msg)
+      # Write error to log file
+      writeLines(error_msg, error_log)
+    })
+  }
+}
+
+for (dataset in datasets_caster) {
+  for (method in methods_caster) {
     tryCatch({
       get_statistics(method, dataset)
     }, error = function(e) {
