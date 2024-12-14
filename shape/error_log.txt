@@ -8,7 +8,7 @@ Error processing dataset: Papilionidae, method: ASTER (Resolved?)
 
 Error processing dataset: Papilionidae, method: ASTRAL-III
 
-Error processing dataset: Seedplant, method: TreeQMC
+Error processing dataset: Seedplant, method: TreeQMC (Not sure of issue here. Tree seems binary, not sure how to change the estimation method.)
 
 Error processing dataset: 1KP, method: ASTER
 
