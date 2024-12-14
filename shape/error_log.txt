@@ -14,5 +14,3 @@ Error processing dataset: 1KP, method: ASTER
 
 Error processing dataset: 1KP, method: ASTRAL-III
 
-Error processing dataset: Fengfrog, method: ASTRAL-III
-
