@@ -1,6 +1,6 @@
 Error processing dataset: Cetacean, method: ASTER (Resolved?)
 
-Error processing dataset: Cetacean, method: ASTRAL-III (Java heap error)
+Error processing dataset: Cetacean, method: ASTRAL-III (Resolved?)
 
 Error processing dataset: Lepidoptera, method: ASTRAL-III (Error parsing input tree?)
 
