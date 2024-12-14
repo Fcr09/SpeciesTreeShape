@@ -6,10 +6,9 @@ Viburnum^ - ASTRAL, ASTER, Tree-QMC, ASTRID
 Characoid^ - ASTRAL, ASTER, Tree-QMC, ASTRID
 Anuran* - CASTER
 Canis - ASTRAL, ASTER, Tree-QMC, ASTRID
-Cetacean - ASTRAL, ASTER
 Lepidop - ASTRAL
-Papilioin - ASTRAL, ASTER
 Morelplant** - ALL
+Seedplant - TreeQMC
 
 
 Species Trees:
@@ -27,10 +26,12 @@ Completed Datasets (as far as I can tell):
 Shenanimal
 UCE
 Avian
-Seedplant
+
 Pseudapis
 Shenfungi
 Shenplant
+Cetacean
+Papilionidae
 
 
 
