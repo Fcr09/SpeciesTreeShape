@@ -1,4 +1,4 @@
-Error processing dataset: Cetacean, method: ASTER
+Error processing dataset: Cetacean, method: ASTER (Resolved?)
 
 Error processing dataset: Cetacean, method: ASTRAL-III
 
