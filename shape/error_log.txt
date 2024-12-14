@@ -6,7 +6,7 @@ Error processing dataset: Lepidoptera, method: ASTRAL-III (Error parsing input t
 
 Error processing dataset: Papilionidae, method: ASTER (Resolved?)
 
-Error processing dataset: Papilionidae, method: ASTRAL-III (Java heap error)
+Error processing dataset: Papilionidae, method: ASTRAL-III (Resolved?)
 
 Error processing dataset: Seedplant, method: TreeQMC (Not sure of issue here. Tree seems binary, not sure how to change the estimation method.)
 
