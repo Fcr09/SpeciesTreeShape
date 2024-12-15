@@ -16,14 +16,13 @@ datasets_1 = {
     "Fengfrog":13
 }
 
-# datasets_caster <- c("Anoplura", "Batrachoseps", "Fumaria", "Lampropeltis", "Oryza")
 index_bias = 13
 datasets_2 = {
-    "Anoplura":1,
-    "Batrachoseps":2,
-    "Fumaria":3,
-    "Lampropeltis":4,
-    "Oryza":5
+    "Anoplura":1 + index_bias,
+    "Batrachoseps":2 + index_bias,
+    "Fumaria":3 + index_bias,
+    "Lampropeltis":4 + index_bias,
+    "Oryza":5 + index_bias
 }
 
 # Metrics dictionary, where type is 0 for balance and 1 for imbalance
