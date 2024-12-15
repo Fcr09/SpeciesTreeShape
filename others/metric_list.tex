@@ -1,0 +1,47 @@
+% Table of tree balance metrics
+\begin{table}[h]
+    \centering
+    \renewcommand{\arraystretch}{1.2}
+    \small
+    \renewcommand{\tabularxcolumn}[1]{m{#1}}
+        \begin{tabularx}{\textwidth}{
+            >{\centering\arraybackslash}m{0.05\textwidth}
+            >{\centering\arraybackslash}m{0.15\textwidth}
+            >{\centering\arraybackslash}m{0.1\textwidth}
+            >{\centering\arraybackslash}m{0.25\textwidth}
+            >{\arraybackslash}X
+    }
+    \toprule
+    \textbf{Index} & \textbf{Name} & \textbf{Type} & \textbf{Formula} & \textbf{Description} \\
+    \midrule
+    1 & B1 Index & Balance & $B_1 = \sum_{i=2}^n \frac{|n_i - \bar{n}|}{(n-1)\bar{n}}$ & Measures the difference between the number of nodes in each subtree ($n_i$) and the mean number of nodes ($\bar{n}$) \\ \hline
+    
+    2 & B2 Index & Balance & $B_2 = \max_{i,j} \{\frac{|n_i - n_j|}{\bar{n}}\}$ & Maximum difference between the number of nodes in any two subtrees, normalized by mean number of nodes \\ \hline
+    
+    3 & Maximum Width & Balance & $W_{max} = \max_d |N_d|$ & Maximum number of nodes at any depth $d$, where $N_d$ is the set of nodes at depth $d$ \\ \hline
+    
+    4 & Rooted Quartet Index & Balance & $RQI = \frac{1}{n}\sum_{i=1}^n q_i$ & Average of normalized quartet indices $q_i$ for each internal node \\ \hline
+    
+    5 & Average Leaf Depth & Imbalance & $\bar{d}_L = \frac{1}{n}\sum_{i=1}^n d_i$ & Average path length from root to all leaves, where $d_i$ is the depth of leaf $i$ \\ \hline
+    
+    6 & Average Vertex Depth & Imbalance & $\bar{d}_V = \frac{1}{|V|}\sum_{v \in V} d_v$ & Average depth of all vertices in the tree, where $V$ is the set of all vertices \\ \hline
+    
+    7 & Colless Index & Imbalance & $I_C = \sum_{i} |r_i - s_i|$ & Sum of absolute differences between sizes of left ($r_i$) and right ($s_i$) subtrees at each internal node \\ \hline
+    
+    8 & Maximum Depth & Imbalance & $d_{max} = \max_{i} d_i$ & Length of the longest path from root to any leaf \\ \hline
+    
+    9 & Sackin Index & Imbalance & $I_S = \sum_{i=1}^n d_i$ & Sum of the depths of all leaves in the tree \\ \hline
+    
+    10 & Stairs1 Index & Imbalance & $S_1 = \sum_{d=1}^{h-1} (|N_d| - |N_{d+1}|)$ & Sum of differences in number of nodes between consecutive levels \\ \hline
+    
+    11 & Stairs2 Index & Imbalance & $S_2 = \sum_{d=1}^h d|N_d|$ & Weighted sum of number of nodes at each level, weighted by depth \\ \hline
+    
+    12 & Symmetry Nodes Index & Imbalance & $SNI = \sum_{i} \delta_i$ & Sum of symmetry indicators $\delta_i$ for each internal node \\ \hline
+    
+    13 & Total Cophenetic Index & Imbalance & $TCI = \sum_{i<j} c_{ij}$ & Sum of all pairwise cophenetic distances between leaves, where $c_{ij}$ is the depth of the most recent common ancestor \\
+    \bottomrule
+    \end{tabularx}
+    \caption{Tree Balance and Imbalance Metrics}
+    \label{tab:tree_metrics}
+    \end{table}
+    
