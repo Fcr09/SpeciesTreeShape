@@ -116,12 +116,12 @@ def get_color_mapping(ranks):
     # Default case - should not happen with 4 methods
     return {rank: 'rdbu4' for rank in unique_ranks}
 
-def check_dataset(dataset_name, dataset_index):
+def check_dataset(dataset_name, dataset_index, mode=1):
     # Dictionary to store metrics for each method
     method_metrics = {}
     
     # Read metrics for each method
-    for method in methods_1:
+    for method in methods_1 if mode == 1 else methods_2:
         file_path = f"../metrics/{dataset_name}/{method}.json"
         try:
             with open(file_path, 'r') as f:
@@ -184,12 +184,12 @@ def check_dataset(dataset_name, dataset_index):
             
     return rankings
 
-def check_all_datasets():
+def check_all_datasets_1():
     results = {method: {} for method in methods_1}
     
     # Iterate through datasets using the dictionary
     for dataset_name, dataset_index in datasets_1.items():
-        dataset_rankings = check_dataset(dataset_name, dataset_index)
+        dataset_rankings = check_dataset(dataset_name, dataset_index, mode=1)
         
         # Merge rankings into results
         for method in methods_1:
@@ -198,12 +198,32 @@ def check_all_datasets():
     
     return results
 
+def check_all_datasets_2():
+    results = {method: {} for method in methods_2}
+    
+    # Iterate through datasets using the dictionary
+    for dataset_name, dataset_index in datasets_2.items():
+        dataset_rankings = check_dataset(dataset_name, dataset_index, mode=2)
+        
+        # Merge rankings into results
+        for method in methods_2:
+            if method in dataset_rankings:
+                results[method].update(dataset_rankings[method])
+    
+    return results
+
 
 # color_mapping
 
-results = check_all_datasets()
+results = check_all_datasets_1()
 # Save results to a JSON file
-output_file = "rankings.json"
+output_file = "rankings_1.json"
+with open(output_file, 'w') as f:
+    json.dump(results, f, indent=2)
+print(f"Rankings saved to {output_file}")
+
+results = check_all_datasets_2()
+output_file = "rankings_2.json"
 with open(output_file, 'w') as f:
     json.dump(results, f, indent=2)
 print(f"Rankings saved to {output_file}")

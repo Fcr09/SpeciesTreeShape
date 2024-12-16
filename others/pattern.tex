@@ -1,0 +1,51 @@
+% Table explaining ranking patterns and color mappings
+\begin{table}[htbp]
+    \centering
+    \setlength{\tabcolsep}{12pt}
+    \renewcommand{\arraystretch}{1.2}
+    \resizebox{0.4\linewidth}{!}{%
+    \begin{tabular}{ccc|c|c|c}
+        \toprule
+        \textbf{Pattern Type} & \textbf{Example} & \multicolumn{4}{c}{\textbf{Color Pattern}} \\
+        \midrule
+        All Equal & 1,1,1,1 & 
+        \multicolumn{1}{>{\centering\arraybackslash}p{0.5cm}|}{\cellcolor{rdbu4}} &
+        \multicolumn{1}{>{\centering\arraybackslash}p{0.5cm}|}{\cellcolor{rdbu4}} &
+        \multicolumn{1}{>{\centering\arraybackslash}p{0.5cm}|}{\cellcolor{rdbu4}} &
+        \multicolumn{1}{>{\centering\arraybackslash}p{0.5cm}}{\cellcolor{rdbu4}} \\
+        \midrule
+        Two Groups & 1,1,4,4 & 
+        \multicolumn{1}{>{\centering\arraybackslash}p{0.5cm}|}{\cellcolor{rdbu1}} &
+        \multicolumn{1}{>{\centering\arraybackslash}p{0.5cm}|}{\cellcolor{rdbu1}} &
+        \multicolumn{1}{>{\centering\arraybackslash}p{0.5cm}|}{\cellcolor{rdbu7}} &
+        \multicolumn{1}{>{\centering\arraybackslash}p{0.5cm}}{\cellcolor{rdbu7}} \\
+        \midrule
+        Three Groups (Type 1) & 1,2,2,4 & 
+        \multicolumn{1}{>{\centering\arraybackslash}p{0.5cm}|}{\cellcolor{rdbu1}} &
+        \multicolumn{1}{>{\centering\arraybackslash}p{0.5cm}|}{\cellcolor{rdbu4}} &
+        \multicolumn{1}{>{\centering\arraybackslash}p{0.5cm}|}{\cellcolor{rdbu4}} &
+        \multicolumn{1}{>{\centering\arraybackslash}p{0.5cm}}{\cellcolor{rdbu7}} \\
+        \midrule
+        Three Groups (Type 2) & 1,2,3,3 & 
+        \multicolumn{1}{>{\centering\arraybackslash}p{0.5cm}|}{\cellcolor{rdbu1}} &
+        \multicolumn{1}{>{\centering\arraybackslash}p{0.5cm}|}{\cellcolor{rdbu3}} &
+        \multicolumn{1}{>{\centering\arraybackslash}p{0.5cm}|}{\cellcolor{rdbu6}} &
+        \multicolumn{1}{>{\centering\arraybackslash}p{0.5cm}}{\cellcolor{rdbu6}} \\
+        \midrule
+        All Different & 1,2,3,4 & 
+        \multicolumn{1}{>{\centering\arraybackslash}p{0.5cm}|}{\cellcolor{rdbu1}} &
+        \multicolumn{1}{>{\centering\arraybackslash}p{0.5cm}|}{\cellcolor{rdbu3}} &
+        \multicolumn{1}{>{\centering\arraybackslash}p{0.5cm}|}{\cellcolor{rdbu5}} &
+        \multicolumn{1}{>{\centering\arraybackslash}p{0.5cm}}{\cellcolor{rdbu7}} \\
+        \midrule
+        Missing Data & - &
+        \multicolumn{1}{>{\centering\arraybackslash}p{0.5cm}|}{\cellcolor{gray!30}} &
+        \multicolumn{1}{>{\centering\arraybackslash}p{0.5cm}|}{\cellcolor{gray!30}} &
+        \multicolumn{1}{>{\centering\arraybackslash}p{0.5cm}|}{\cellcolor{gray!30}} &
+        \multicolumn{1}{>{\centering\arraybackslash}p{0.5cm}}{\cellcolor{gray!30}} \\
+        \bottomrule
+    \end{tabular}
+    }
+    \caption{Ranking patterns and their corresponding color assignments in the RdBu color scheme}
+    \label{tab:color_patterns}
+\end{table}
