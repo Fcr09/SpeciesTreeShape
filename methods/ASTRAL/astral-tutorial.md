@@ -18,32 +18,40 @@ Read the [README](README.md) file in addition to this tutorial.
 Email: `astral-users@googlegroups.com` for questions. Please subscribe to the mailing list for infrequent updates. 
 
 
-* [Installation](#installation)
-* [Running ASTRAL](#running-astral)
-  * [ASTRAL Help](#astral-help)
-  * [Running on the sample mammalian dataset](#running-on-the-sample-mammalian-dataset)
-  * [Running on larger datasets:](#running-on-larger-datasets)
-  * [Running with unresolved gene trees](#running-with-unresolved-gene-trees)
-  * [Running on a multi\-individual datasets](#running-on-a-multi-individual-datasets)
-* [Interpreting output](#interpreting-output)
-  * [Viewing results of ASTRAL:](#viewing-results-of-astral)
-  * [Branch length and support](#branch-length-and-support)
-  * [The ASTRAL Log information](#the-astral-log-information)
-* [Scoring existing trees](#scoring-existing-trees)
-* [Extensive branch annotations](#extensive-branch-annotations)
-  * [Newick annotations](#newick-annotations)
-  * [File export of branch annotations](#file-export-of-branch-annotations)
-  * [Prior hyper\-parameter](#prior-hyper-parameter)
-* [Multi-locus Bootstrapping:](#multi-locus-bootstrapping)
-* [The Search space of ASTRAL](#the-search-space-of-astral)
-  * [Exact version](#exact-version)
-    * [Example where exact helps](#example-where-exact-helps)
-  * [Providing ASTRAL with extra trees](#providing-astral-with-extra-trees)
-* [Miscellaneous](#miscellaneous)
-  * [Memory](#memory)
-  * [Other options](#other-options)
-  * [Acknowledgment](#acknowledgment)
-  * [Bug Reports](#bug-reports)
+- [Installation](#installation)
+- [Running ASTRAL](#running-astral)
+  - [ASTRAL Help](#astral-help)
+  - [Running on the sample mammalian dataset](#running-on-the-sample-mammalian-dataset)
+  - [Running on larger datasets:](#running-on-larger-datasets)
+  - [Running with unresolved gene trees](#running-with-unresolved-gene-trees)
+  - [Running on multi-individual datasets](#running-on-multi-individual-datasets)
+- [Interpreting output](#interpreting-output)
+  - [Viewing results of ASTRAL:](#viewing-results-of-astral)
+  - [Branch length and support](#branch-length-and-support)
+  - [The ASTRAL Log information](#the-astral-log-information)
+- [Scoring existing trees](#scoring-existing-trees)
+- [Extensive branch annotations](#extensive-branch-annotations)
+  - [Newick annotations](#newick-annotations)
+  - [File export of branch annotations](#file-export-of-branch-annotations)
+    - [Example:](#example)
+  - [Prior hyper-parameter](#prior-hyper-parameter)
+- [Multi-locus Bootstrapping:](#multi-locus-bootstrapping)
+    - [Example](#example-1)
+    - [Input](#input)
+    - [Output](#output)
+    - [Number of replicates](#number-of-replicates)
+    - [Gene+site resampling:](#genesite-resampling)
+    - [Gene-only resampling:](#gene-only-resampling)
+- [The Search space of ASTRAL](#the-search-space-of-astral)
+  - [Exact version](#exact-version)
+    - [Example where exact helps](#example-where-exact-helps)
+  - [Providing ASTRAL with extra trees](#providing-astral-with-extra-trees)
+- [Miscellaneous](#miscellaneous)
+  - [Memory](#memory)
+  - [Memory issues due to taxon names](#memory-issues-due-to-taxon-names)
+  - [Other options](#other-options)
+  - [Acknowledgment](#acknowledgment)
+  - [Bug Reports](#bug-reports)
 
 
 Installation
@@ -85,8 +93,8 @@ java -Djava.library.path=./lib/ -jar __astralmp.jar__ -i test_data/song_mammals.
 The results will be outputted to the standard output. To save the results in an output file use the `-o` option:
 
 ```
-java -jar astral.5.7.8.jar -i test_data/song_mammals.424.gene.tre -o test_data/song_mammals.tre
-java -Djava.library.path=./lib/ -jar __astralmp.jar__ -i test_data/song_mammals.424.gene.tre -o test_data/song_mammals.tre
+java -jar astral.5.7.8.jar -i test_data/Lepidoptera.tre -o test_data/Lepidoptera_out.tre
+java -Djava.library.path=./lib/ -jar __astralmp.jar__ -i test_data/Lepidoptera_Micropterigoidea_Micropterigidae_Micropterix_calthella_Mica__N.tre -o test_data/Lepidoptera_Micropterigoidea_Micropterigidae_Micropterix_calthella_Mica__N.tre
 ```
 
 Here, the main input is just a file that contains all the input gene trees in Newick format. The input gene trees are treated as unrooted, whether or not they have a root. Note that the **output of ASTRAL should also be treated as an unrooted tree**. 

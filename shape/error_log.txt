@@ -1,4 +1,2 @@
-Error processing dataset: Lepidoptera, method: ASTRAL-III
-
 Error processing dataset: Seedplant, method: TreeQMC
 
